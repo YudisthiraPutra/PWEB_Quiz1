@@ -36,7 +36,7 @@ img {
 .title {
   margin: 21px auto 0;
   color: #172b56;
-  font-size: 350%;
+  font-size: 3vw;
   font-weight: 100;
   margin-left: 0;
   animation: slideIn ease 0.5s forwards 0.1s;
@@ -47,18 +47,15 @@ img {
 }
 .back-button {
   margin-bottom: 0;
-  margin-top: px;
   margin-right: 0;
   transition: 0.3s;
-  height: 50px;
+  animation: slideIn ease 0.5s forwards 0.1s;
+  opacity: 0;
 
   &:hover {
     scale: 1.1;
     opacity: 1;
   }
-
-  animation: slideIn ease 0.5s forwards 0.1s;
-  opacity: 0;
 }
 
 .main-container {
@@ -83,11 +80,12 @@ img {
 }
 
 .navbar {
-  width: 40%;
-  height: 7%;
+  width: 45%;
+  height: 5%;
   position: absolute;
   bottom: 5%;
-  left: 30%;
+  left: 29%;
+  padding: 10px 0;
   border-radius: 5px;
   background-color: #e7dbca;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -117,7 +115,7 @@ img {
 
 .nav-item a {
   margin: auto 30px;
-  font-size: 150%;
+  font-size: 1.5vw;
   color: #172b56;
   text-align: center;
   font-weight: 100;
@@ -144,7 +142,7 @@ img {
     transform: translateY(0px);
   }
   100% {
-    transform: translateY(-45px);
+    transform: translateY(-50px);
     opacity: 1;
   }
 }
@@ -228,7 +226,7 @@ img {
   color: #f5ede3;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 130%;
+  font-size: 1vw;
   letter-spacing: 1.5px;
   word-wrap: break-word;
   text-align: justify;
@@ -246,6 +244,7 @@ img {
 }
 .spotify svg {
   margin: 30px 15px 30px auto;
+  width: 10%;
 }
 
 .spotify a {
